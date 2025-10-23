@@ -1,0 +1,31 @@
+/*===========================================
+GLOBAL STYLES & RESET
+=============================================*/
+body {
+    background-color: #1a1a1a;
+}
+
+/*===========================================
+NAVIGATION BAR (Flexbox)
+=============================================*/
+.navbar {
+    background: linear-gradient(135deg, #2d1b00 0%, #1a1a1a 100%);
+    padding: 1rem 2rem; /* Top/Bottom 1rem, Left/Right 2rem*/
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(255, 102, 0, 0.3);
+    border-bottom: 3px solid #ff6600;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+
+}
